@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0e6e6;
+    color: #131520;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 96px;
+    align-items: center;
+}
+.container-xl{
+    padding: 0 32px;
+}
+.logo{
+    width: auto;
+    align-items: center;
+}
+.logo-icon{
+    width: 32px;
+    height: 32px;
+}
+.logo-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.linkedin{
+    padding: 20px 0;
+}
+.linkedin img{
+    width: 20px;
+    height: 20px;
+    transition-duration: 300ms;
+}
+.linkedin-text{
+    font-weight: 600;
+}
+.linkedin:hover img{
+    transform: translate(5px, -5px);
+}
+
+main{
+    padding: 9vh 0;
+}
+h1{
+    font-size: 4.5rem;
+}
+main .row p{
+    font-size: 1.25rem;
+}
+main .linkedin{
+    width: 10%;
+}
+.header-img-content{
+    text-align: center;
+    position: relative;
+}
+.main-img{
+    width: 550px;
+    border-radius: 50%;
+}
+.light-img{
+    position: absolute;
+    bottom: -60%;
+    right: 0;
+    left: -55%;
+    width: 170%;
+}
+
+.location, .date{
+    font-weight: 600;
+}
+
+.content p{
+    font-size: 1.125em;
+}
+
+.about{
+    padding: 9vh 0;
+}
+.about .content{
+    max-width: 560px;
+}
+.about .content h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.about .content img{
+    margin-top: 32px;
+}
+
+.projects{
+    padding-bottom: 9vh;
+}
+.projects .container-xl .row{
+    padding-top: 9vh;
+}
+.projects img{
+    width: 560px;
+}
+.projects .content .date{
+    margin-bottom: 32px;
+}
+
+
+footer{
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #131520;
+}
+footer a:hover{
+    color: #131520;
+}
+footer .copyright{
+    margin-top: 72px;
+}
